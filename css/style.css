@@ -1,0 +1,83 @@
+@charset "UTF8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1500px;
+   
+    height: 100px;
+    margin: auto;
+    
+}
+
+.logo{
+    width: 250px;
+    height: 80px;
+    background-image: url(../imagens/logo.jpg);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+}
+ul{
+    
+    list-style-type: none; /*aqui eu tirei a decoracao das listas*/
+   
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+   
+}
+li{
+    
+    display: inline-block;
+    padding: 10px;
+    margin-left: 40px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+} 
+li:hover{
+    background-color: #8a807e;
+    border-radius: 80px;
+    color: white;
+}
+
+
+
+
+
+.one{
+    margin-top: 10px;
+    width: 100vw;
+    height: 654px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../imagens/bg.jpg);
+    background-size: contain;
+    background-position: right bottom;/* prestar bastante a atencao aqui pois esta ficando alinhado na parte de baixo de acordo com o tamanho da tela */
+    background-repeat: no-repeat;
+    
+}
+/*.img01{
+    width: 1000px;
+    height: 654px;
+    background-image: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}*/
+    
+    
