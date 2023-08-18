@@ -271,6 +271,16 @@ h4{
     padding: 50px;
     color: white;
 }
+.dep02 > h3{
+    font-size: 40px;
+}
+.dep02 > h6{
+    margin-left: 350px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(70, 68, 68);
+}
 .container-butom{
 
     width: 200px;
@@ -293,13 +303,16 @@ h4{
 .seta01{
     width: 30px;
     height: 30px;
-    background-color: blue;
+    background-image: url(../imagens/arrow-left.png);
+    background-repeat: no-repeat;
     display: inline-block;
+    margin-top: 30px;
 }
 .seta02{
     width: 30px;
     height: 30px;
-    background-color: rgb(243, 255, 13);
+    background-image: url(../imagens/arrow-right.png);
+    background-repeat: no-repeat;
     display: inline-block;
 }
 
