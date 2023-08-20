@@ -49,7 +49,7 @@
    
 }
 a{
-    text-decoration: none;
+    
     color: black;
     font-size: 25px;
 
@@ -251,17 +251,29 @@ h4{
     background-color: rgb(32, 32, 32);
     color: white;
     font-size: 20px;
-    padding-left: 300px;
     padding-top: 40px;
-    padding-bottom: 20px;
+   
     
     
+    
+    
+}
+.dep01 > ul{
+   
+    padding-left: 30px;
+    margin-left: 15%;
 }
 .dep01 > h4{
     color: white;
     font-size: 2em;
     font-style: italic;
     margin-bottom: 20px;
+    margin-left: 15%;
+    
+}
+.dep01  a{
+    color: white;
+    text-decoration: none;
 }
 .dep02{
     float: right;
@@ -279,7 +291,7 @@ h4{
     margin-top: -30px;
     font-size: 20px;
     font-style: italic;
-    color: rgb(70, 68, 68);
+    color: rgba(0, 0, 0, 0.372);
 }
 .container-butom{
 
@@ -299,6 +311,7 @@ h4{
     border-radius: 5px;
     margin-right: 150px;
     margin-bottom: 800px;
+
 }
 .seta01{
     width: 30px;
