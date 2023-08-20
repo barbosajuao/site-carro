@@ -1,8 +1,8 @@
 @charset "UTF8";
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
     
@@ -331,10 +331,12 @@ h4{
 .contato{
     text-align: center;
     width:100vw;
-    height: 500px;
+    height: 700px;
     padding-top: 100px;
+    
 
 }
+
 .contato .titulo{
     width: 350px;
 }
@@ -347,10 +349,92 @@ h4{
 .formulario{
     
     width: 800px;
-    height: 400px;
-    background-color: blue;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    
    
     
+}
+input{
+    display: block;
+    font-size: 20px;
+   
+}
+::placeholder{
+    color: rgba(46, 46, 46, 0.212);
+}
+#w100{
+    width: 96%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
+}
+#w50{
+    display: inline-block;
+    width: 48%;
+    height: 50px;
+    margin-bottom: 20px;
+   
+}
+textarea{
+    
+    width: 96%;
+    height: 300px;
+    resize: none;
+    margin-bottom: 5px;
+    font-size: 20px;
+   
+}
+
+#submit-enviar{
+    width: 150px;
+    height: 40px;
+    background-color: #eb2d2d;
+    color: white;
+    margin: auto;
+    border: 0px solid black;
+    font-size: 20px;
+    border-radius: 30px;
+}
+footer{
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(23, 23, 23);
+   
+   
+
+}
+footer .container{
+    width: 100%;
+    margin: 0px;
+   
+}
+footer .links{
+    float: left;
+    
+   
+}
+.links  li{
+    padding: 0;
+    margin-left: 50px;
+    
+}
+
+footer a {
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+    margin-left: 850px;
+    margin-top: -15px;
+   
 }
 
 
@@ -370,6 +454,14 @@ h4{
 
 
 
+@media screen and (max-width:1240px){
+    footer p{
+        color: white;
+        margin-left: 100px;
+        margin-top: -15px;
+       
+    }
+}
 
 @media screen and (max-width:1215px){
     .butom{
@@ -380,9 +472,26 @@ h4{
        
         margin-right: 10px;
     }
+    .links{
+        width: 600px;
+    }
+    .links  li{
+        padding: 0;
+        margin-left: 10px;
+        
+    }
+    
+footer p{
+    color: white;
+    margin-left: 50px;
+    margin-top: -15px;
+   
+}
 }
 
+@media screen and (max-width:1124px){
 
+}
 
 @media screen and (max-width:1120px){
     .desc{
@@ -402,10 +511,27 @@ h4{
     .titulo > h2{
         font-size: 2em;
     }
+  
 }
 
 
+@media screen and (max-width:990px){
+    .links{
+        display: none;
+    }
+    footer{
+        text-align: center;
+        
+    }
+    footer p{
+        color: white;
+        margin: auto;
+        margin-top: -20px;
+        
+       
+    }
 
+}
 @media screen and (max-width:968px){
     .carro{
         height: 1200px;
@@ -491,8 +617,18 @@ h4{
     .dep02 > h6{
         margin-left: 100px;
     }
+    .contato{
+        padding-top: 350px;
+        height: 1000px;
+
+    }
 
 
+}
+@media screen and (max-width:830px){
+    .formulario{
+        width: 450px;
+       }
 }
 
 @media screen and (max-width:800px){
@@ -538,6 +674,7 @@ h4{
        color: black;
        font-size: 2em;
    }
+   
 }
 @media screen and (max-width:680px){
     .linha{
