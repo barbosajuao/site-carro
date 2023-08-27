@@ -1,0 +1,360 @@
+@charset "UTF8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1500px;
+   
+    height: 100px;
+    margin: auto;
+    
+}
+a{
+    text-decoration: none;
+}
+.icon-mobile{
+    display: none;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-image: url(../imagens/icon_menu.png);
+}
+
+.logo{
+    width: 250px;
+    height: 80px;
+    background-image: url(../imagens/logo.jpg);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+}
+
+
+.container ul{
+    
+    list-style-type: none; /*aqui eu tirei a decoracao das listas*/
+   
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+   
+}
+.container li{
+    
+    display: inline-block;
+    padding: 10px;
+    margin-left: 40px;
+   
+}
+a{
+    
+    color: black;
+    font-size: 25px;
+
+} 
+.linha{
+    width:100vw;
+    height: 5px;
+    background-color: #eb2d2d;
+    margin-top: 15px;
+}
+.linha01{
+    width: 1200px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+}
+.text{
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: -45px;
+    font-size: 25px;
+}
+.vitrine{
+    width: 100vw;
+    height: 1500px;
+    padding-top: 30px;
+    
+}
+.lado-filtro{
+    float: left;
+    width: 30%;
+    height: 900px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.lado-vitrine{
+    width: 65%;
+    height: 800px;
+    display: inline-block;
+}
+.container-filtro{
+    width: 100%;
+    height: 100px;
+    
+}
+.barra{
+    width: 100%;
+    height: 15px;
+    border-radius: 25px;
+   
+    margin-top: 10px;
+    border: 2px solid #ccc;
+}
+.preenchimento{
+    
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background:linear-gradient(to bottom, rgb(255,255,255),rgb(200,200,200));
+
+}
+.cursor{
+    width: 20px;
+    height: 20px;
+    background:linear-gradient(to bottom, rgb(255,255,255),rgb(180,180,180));
+    border-radius: 20px;
+    border: 1px solid rgb(110, 110, 110);
+    margin-left: 27%;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.container-filtro > h6{
+    font-size: 25px;
+    font-weight: normal;
+}
+#min{
+    display: inline-block;
+}
+#max{
+    
+    float: right;
+    
+}
+.filtro-ano{
+    margin-top: 40px;
+}
+.filtro-ano > h6{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.pesquisa-ano{
+    margin-bottom: 10px;
+}
+.butom{
+    width: 100px;
+    background-color: #eb2d2d;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+.lado-vitrine{
+    display: inline-block;
+    width: 65%;
+    height: 800px;
+   
+}
+
+.container02{
+    max-width:100%;
+    height:50px;
+    
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.container02 .carro01{
+    display: inline-block;
+    padding: 10px;
+
+}
+.container02 .carro02{
+    display: inline-block;
+    padding: 10px;
+
+}
+.container02 .carro03{
+    display: inline-block;
+    padding: 10px;
+
+}
+.img-carro01{
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/carroo01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 10px;
+    box-shadow:2px 2px 10px black
+}
+.img-carro02{
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/carro02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 10px;
+    box-shadow:2px 2px 10px black
+
+}
+.img-carro03{
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagens/carro03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 10px;
+    box-shadow:4px 4px 10px black
+
+}
+.detalhe{
+    margin: auto;
+    width: 50%;
+    background-color: #eb2d2d;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow:2px 2px 10px black
+    
+}
+.containerpage{
+    width: 70%;
+}
+.container02 a{
+    color: white;
+}
+footer{
+    width:100vw;
+    height: 120px;
+    background-color: rgb(23, 23, 23);
+   
+   
+
+}
+footer .container{
+    width: 100%;
+    margin: 0px;
+   
+}
+footer .links{
+    float: left;
+    
+   
+}
+.links  li{
+    padding: 0;
+    margin-left: 50px;
+    
+}
+
+footer a {
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+    margin-left: 850px;
+    margin-top: -15px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1500px){
+    .vitrine{
+        height:2500px;
+        margin: auto;
+        
+    }
+    .linha01{
+        width: 80%;
+    }
+    .text{
+        font-size: 20px;
+        
+    }
+   
+}
+@media screen and (max-width:1000px){
+    
+    .lado-filtro{
+        width: 100%;
+        height: 400px;
+        padding: 50px;
+
+    }
+    .lado-vitrine{
+        width: 100%;
+        
+    }
+    .vitrine{
+        height:3800px;
+        margin: auto;
+        
+    }
+     
+    
+}
+@media screen and (max-width:890px){
+    #desktop{
+        display: none;
+    }
+    .icon-mobile{
+        width: 40px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: block;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+
+}
+@media screen and (max-width:650px){
+    .vitrine{
+        height: 4600px;
+    }
+}
