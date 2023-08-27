@@ -54,6 +54,7 @@ a{
     font-size: 25px;
 
 } 
+
 /*li:hover{
     background-color: #8a807e;
     border-radius: 80px;
@@ -403,9 +404,6 @@ footer{
     width: 100vw;
     height: 120px;
     background-color: rgb(23, 23, 23);
-   
-   
-
 }
 footer .container{
     width: 100%;
@@ -436,6 +434,44 @@ footer p{
     margin-top: -15px;
    
 }
+/*************************************
+***************************************
+*************************************
+**************************************
+************************************
+***********************************
+ INICIO DA PAGINA DE VENDAS */
+
+
+ .pag01{
+    height: 2000px;
+ }
+ .divisao{
+    width: 100vw;
+    height: 5px;
+    background-color: #eb2d2d;
+    margin-top: 30px;
+ }
+ .homevenda{
+    width: 100vw;
+    padding-top: 135px;
+ }
+ .homevenda .linha{
+    width: 85%;
+ }
+ .homevenda .titulo{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    padding: 30px;
+    margin-top: -70px;
+    font-size: 30px;
+    font-style: italic;
+
+ }
+ .mobile01{
+    display: none;
+ }
 
 
 
@@ -594,7 +630,7 @@ footer p{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     float: right;
-    top: 40px;
+    margin-top: -310px;
     margin-right: 20px;
     
     }
@@ -622,6 +658,36 @@ footer p{
         height: 1000px;
 
     }
+    .mobile01{
+        display: block;
+    }
+    
+    .mobile01{
+        width: 100vw;
+        height: 200px;
+        text-align: center;
+       
+       }
+       .mobile01 ul{
+        width: 100vw;
+        margin: auto;
+        
+       }
+       
+      
+       .mobile01  li{
+        
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        text-align: center;
+        position: relative;
+        margin: auto;
+        border-bottom:  2px solid rgb(197, 190, 190) ;
+        
+       
+       }
 
 
 }
